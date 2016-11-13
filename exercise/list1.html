@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>列表</title>
+    <link rel="stylesheet" href="frameworks/bootstrap-3.3.0-dist/css/bootstrap.css">
+    <link rel="stylesheet" href="css/style.css"/>
+    <meta  name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <script src="frameworks/jquery-2.1.4/jquery.js"></script>
+    <script src="frameworks/bootstrap-3.3.0-dist/js/bootstrap.js"></script>
+
+	<style>
+		.media-body p{
+			line-height:16px;
+			margin:0;
+
+		}
+		.dropdown-menu{
+			margin:0;
+		}
+		.row>.btn-group>.btn-group{
+			position:static
+		}
+		.btn-group-justified > .btn-group .dropdown-menu{
+			left:0;
+		}
+	</style>
+</head>
+<body>
+    <!--头部开始-->
+    <div class="header-one">
+        <div class="container-fluid">
+            <img src="images/4-list_03.jpg"/>
+            <a href="">
+                上海
+                <span class="glyphicon glyphicon-chevron-down"></span>
+            </a>
+
+            <div class="pull-right top">
+                <div class="text-center">
+                    <span class="glyphicon glyphicon-arrow-down"></span>
+                    <p>APP</p>
+                </div>
+            </div>
+            <div class="pull-right top">
+                <div class="text-center">
+                    <span class="glyphicon glyphicon-user"></span>
+                    <p>我的</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--头部结束-->
+    <!--查询-->
+    <div class="container-fluid rows-three">
+        <div class="row ">
+            <div class="col-xs-12">
+                <div class="input-group">
+                    <input type="text" class="form-control" placeholder="请输入小区或板块名">
+                    <span class="input-group-addon">
+                            <span class="glyphicon glyphicon-search"></span>
+                        </span>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid rows-four">
+        <div class="row">
+            <div class="btn-group btn-group-justified">
+                <div class="btn-group" role="group">
+                    <button class="btn btn-default dropdown" data-toggle="dropdown">
+                        区域
+                        <span class="caret"></span>
+                    </button>
+                    <ul class="dropdown-menu uls">
+                        <li><a href="">不限</a></li>
+                        <li><a href="">高新</a></li>
+                        <li><a href="">姑苏</a></li>
+                        <li><a href="">吴中</a></li>
+                        <li><a href="">工业园区</a></li>
+                        <li><a href="">吴江</a></li>
+                        <li><a href="">常熟</a></li>
+                        <li><a href="">太仓</a></li>
+                        <li><a href="">昆山</a></li>
+                    </ul>
+                </div>
+                <div class="btn-group" role="group">
+                    <button class="btn btn-default dropdown" data-toggle="dropdown">
+                        总价
+                        <span class="caret"></span>
+                    </button>
+					 <ul class="dropdown-menu uls">
+                        <li><a href="">不限</a></li>
+                        <li><a href="">高新</a></li>
+                        <li><a href="">姑苏</a></li>
+                        <li><a href="">吴中</a></li>
+                        <li><a href="">工业园区</a></li>
+                        <li><a href="">吴江</a></li>
+                        <li><a href="">常熟</a></li>
+                        <li><a href="">太仓</a></li>
+                        <li><a href="">昆山</a></li>
+                    </ul>
+                </div>
+                <div class="btn-group" role="group">
+                    <button class="btn btn-default">
+                        户型
+                        <span class="caret"></span>
+                    </button>
+                </div>
+                <div class="btn-group" role="group">
+                    <button class="btn btn-default">
+                        更多
+                        <span class="caret"></span>
+                    </button>
+                </div>
+            </div>
+        </div>
+        <div class="row row-seven">
+            <div class="col-xs-12">
+                <div class="media">
+                    <div class="media-left">
+                        <a href="">
+                            <img src="images/11.jpg"/>
+                        </a>
+                    </div>
+                    <div class="media-body">
+                        <p class="media-heading" class="span3">
+                            成熟社区，闹中取静
+                        </p>
+                        <p>2室一厅 75m 南</p>
+                        <p>东力新村
+                            <span  class="span2">310万</span>
+                        </p>
+                        <span class="label">满五</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row row-seven">
+            <div class="col-xs-12">
+                <div class="media">
+                    <div class="media-left">
+                        <a href="">
+                            <img src="images/11.jpg"/>
+                        </a>
+                    </div>
+                    <div class="media-body">
+                        <p class="media-heading" class="span3">
+                            成熟社区，闹中取静
+                        </p>
+                        <p>2室一厅 75m 南</p>
+                        <p>东力新村
+                            <span  class="span2">310万</span>
+                        </p>
+                        <span class="label">满五</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row row-seven">
+            <div class="col-xs-12">
+                <div class="media">
+                    <div class="media-left">
+                        <a href="">
+                            <img src="images/11.jpg"/>
+                        </a>
+                    </div>
+                    <div class="media-body">
+                        <p class="media-heading" class="span3">
+                            成熟社区，闹中取静
+                        </p>
+                        <p>2室一厅 75m 南</p>
+                        <p>东力新村
+                            <span  class="span2">310万</span>
+                        </p>
+                        <span class="label">满五</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row row-seven">
+            <div class="col-xs-12">
+                <div class="media">
+                    <div class="media-left">
+                        <a href="">
+                            <img src="images/11.jpg"/>
+                        </a>
+                    </div>
+                    <div class="media-body">
+                        <p class="media-heading" class="span3">
+                            成熟社区，闹中取静
+                        </p>
+                        <p>2室一厅 75m 南</p>
+                        <p>东力新村
+                            <span  class="span2">310万</span>
+                        </p>
+                        <span class="label">满五</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+	<script>
+		$('.dropdown-menu').width($(window).width()-2)
+	</script>
+</body>
+</html>
